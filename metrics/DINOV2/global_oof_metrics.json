@@ -1,0 +1,14 @@
+{
+    "accuracy": 0.8493150684931506,
+    "balanced_accuracy": 0.8360745614035088,
+    "f1_macro": 0.8008926357550211,
+    "auc": 0.8958333333333334,
+    "precision_healthy": 0.6190476190476191,
+    "recall_healthy": 0.8125,
+    "f1_healthy": 0.7027027027027027,
+    "support_healthy": 16.0,
+    "precision_infected": 0.9423076923076923,
+    "recall_infected": 0.8596491228070176,
+    "f1_infected": 0.8990825688073395,
+    "support_infected": 57.0
+}
