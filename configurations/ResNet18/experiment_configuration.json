@@ -1,0 +1,30 @@
+{
+    "train_csv_path": "../data_LLM/metadata_train.csv",
+    "validation_csv_path": "../data_LLM/metadata_val.csv",
+    "test_csv_path": "../data_LLM/metadata_test.csv",
+    "model_name": "resnet18_imagenet1k",
+    "pretraining": "ImageNet-1K",
+    "class_names": [
+        "healthy",
+        "infected"
+    ],
+    "label2id": {
+        "healthy": 0,
+        "infected": 1
+    },
+    "id2label": {
+        "0": "healthy",
+        "1": "infected"
+    },
+    "seed": 7,
+    "n_outer_folds": 5,
+    "n_inner_folds": 4,
+    "batch_size": 8,
+    "learning_rate": 0.001,
+    "weight_decay": 0.01,
+    "num_epochs": 20,
+    "early_stopping_patience": 4,
+    "freeze_backbone": true,
+    "weighted_loss": true,
+    "image_size": 224
+}
